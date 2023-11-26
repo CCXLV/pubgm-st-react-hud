@@ -1,0 +1,88 @@
+{
+    "team_data": [
+        {
+            "name": "Boring Protocol",
+            "initial": "Bop",
+            "logo": "team_data/team_logos/1.png"
+        },
+        {
+            "name": "Ghost Gaming",
+            "initial": "Ghost",
+            "logo": "team_data/team_logos/2.png"
+        },
+        {
+            "name": "Why K Gee",
+            "initial": "YKG",
+            "logo": "team_data/team_logos/3.png"
+        },
+        {
+            "name": "Loops Esports",
+            "initial": "Loops",
+            "logo": "team_data/team_logos/4.png"
+        },
+        {
+            "name": "Nigma Galaxy",
+            "initial": "ngx",
+            "logo": "team_data/team_logos/5.png"
+        },
+        {
+            "name": "NASR Esports",
+            "initial": "NASR",
+            "logo": "team_data/team_logos/6.png"
+        },
+        {
+            "name": "Influence Rage",
+            "initial": "INF",
+            "logo": "team_data/team_logos/7.png"
+        },
+        {
+            "name": "N Hyper Esports",
+            "initial": "NHP",
+            "logo": "team_data/team_logos/8.png"
+        },
+        {
+            "name": "Team Queso",
+            "initial": "TQ",
+            "logo": "team_data/team_logos/9.png"
+        },
+        {
+            "name": "REJECT",
+            "initial": "RC",
+            "logo": "team_data/team_logos/10.png"
+        },
+        {
+            "name": "Intense Game",
+            "initial": "iG",
+            "logo": "team_data/team_logos/11.png"
+        },
+        {
+            "name": "Nongshim RedForce",
+            "initial": "NSR",
+            "logo": "team_data/team_logos/12.png"
+        },
+        {
+            "name": "Rise Esports",
+            "initial": "Rise",
+            "logo": "team_data/team_logos/13.png"
+        },
+        {
+            "name": "Pittsburgh Knights",
+            "initial": "Knights",
+            "logo": "team_data/team_logos/14.png"
+        },
+        {
+            "name": "19 eSports",
+            "initial": "19e",
+            "logo": "team_data/team_logos/15.png"
+        },
+        {
+            "name": "Cloud 9",
+            "initial": "C9",
+            "logo": "team_data/team_logos/16.png"
+        }
+    ],
+    "table_data": {
+        "background_color": "rgb(0, 122, 204, 0.8)",
+        "header_color": "rgb(0, 95, 204)"
+    }
+}

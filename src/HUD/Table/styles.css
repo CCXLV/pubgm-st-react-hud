@@ -1,0 +1,99 @@
+.gap-5 {
+    gap: 5px;
+}
+
+.table-m {
+    display: flex;
+    width: 360px;
+    height: fit-content;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    flex-direction: column;
+}
+.table-header-m {
+    display: flex;
+    width: 100%;
+    height: 29px;
+    border-bottom: 1px solid white;
+
+    color: white;
+    font-family: var(--font-family);
+    font-family: var(--font-family-m);
+    font-size: 18px;
+}
+.blank-div {
+    display: flex;
+    height: 100%;
+    width: 40px;
+}
+.table-team-header {
+    width: 130px;
+}
+.table-alive-side {
+    width: 60px;
+}
+.table-stats-side {
+    width: 65px;
+}
+.team-m {
+    display: flex;
+    width: 100%;
+    height: 49px;
+    border-bottom: 1px solid white;
+
+    color: white;
+    font-family: var(--font-family);
+    font-family: var(--font-family-m);
+    font-size: 26px;
+}
+.table-inner-element {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.team-rank-side {
+    width: 40px;
+}
+.team-team-side {
+    width: 130px;
+}
+.team-stats-side {
+    width: 190px;
+}
+.team-logo-m {
+    width: 40px;
+}
+.team-name-m {
+    width: 90px;
+    justify-content: left;
+}
+.team-logo {
+    height: 55%;
+}
+.team-name-tb {
+    margin-left: 7px;
+    max-width: 90px;
+    overflow: hidden;
+    white-space: nowrap;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 0%);
+    background-clip: content-box;
+    -webkit-background-clip: text;
+}
+.team-alive-dv {
+    display: flex;
+    height: 63%;
+    width: 6px;
+    background-color: white;
+}
+
+.knocked-player {
+    background-color: rgb(203, 21, 21);
+}
+.eliminated-player {
+    background-color: rgb(175, 175, 175);
+}
+.eliminated-player-txt {
+    color: rgb(175, 175, 175);
+}

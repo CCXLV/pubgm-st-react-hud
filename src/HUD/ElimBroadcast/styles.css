@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+span, p {
+    margin: 0;
+    padding: 0;
+}
+.broadcast-div {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+    font-size: 16px;
+    width: fit-content;
+    height: 35px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-blend-mode: screen;
+    background-size: 100%;
+    background-position: left, right;
+    background-repeat: no-repeat;
+
+    background: linear-gradient(to left, rgba(255, 0, 0, 0), rgb(0, 123, 255), rgba(255, 0, 0, 0));
+
+    opacity: 0;
+    transition: opacity 1s;
+    gap: 8px;
+}
+
+.team-logo-br {
+    height: 70%;
+}
+.team-name-br-p {
+    color: goldenrod;
+    font-family: var(--font-family);
+    font-family: var(--font-family-m);
+    font-size: 23px;
+    margin-bottom: 2px;
+}

@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&display=swap');
+:root {
+    --main-color: rgb(0, 122, 204);
+    --main-color-transparent: rgb(0, 122, 204, 0.8);
+    --font-family: 'Open Sans', sans-serif;
+    --font-family-m: 'Oswald', sans-serif;
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+}
+span {
+    padding: 0;
+    margin: 0;
+}
+
+/* Home */
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 700px;
+    left: 0;
+    right: 0;
+    margin: 120px auto;
+    gap: 20px;
+}
+.home-button {
+    display: flex;
+    color: aliceblue;
+    background-color: var(--main-color);
+    font-family: 'Poppins', sans-serif;
+    width: 150px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 16px;
+}
+.home-button:hover {
+    background-color: #1e8ed8;
+}
