@@ -575,7 +575,7 @@ export function teamEliminatedEmit(teamID: number) {
         const teamRank = teamDiv.querySelector('.team-rank-side');
         teamRank?.classList.add('eliminated-player-txt');
 
-        const teamName = teamDiv.querySelector('.team-name');
+        const teamName = teamDiv.querySelector('.team-name-tb');
         teamName?.classList.add('eliminated-player-txt');
 
         const teamPts = teamDiv.querySelector('.team-pts');
