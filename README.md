@@ -1,5 +1,8 @@
 # Scoring Table with Team Elimination Broadcast
 
+![Preview](./preview.png)
+
+
 ## How to import team data
 In the `team_data` folder there is `config.json` where you can set teams background color and scoring table's header color in the `"table_data"`. You can upload team logos in `team_logos` folder and set team data in the `config.json` file in `"team_data"` (use the already put data as an example)
 
