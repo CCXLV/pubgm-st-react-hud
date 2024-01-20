@@ -30,8 +30,4 @@ npm run server
 
 **NOTE** Whenever you change team data (team names, team logos) you will need to restart the backend server.
 
-## Support
-This is the [link](https://discord.gg/ENnHSg78hd) of ByteBlaze Project Discord server.
-
-
 Developed by [CCXLV](https://github.com/CCXLV/)
