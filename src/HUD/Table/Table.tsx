@@ -79,6 +79,7 @@ function Table() {
                 }
             }
         })
+        // eslint-disable-next-line
     }, [])
 
     
@@ -115,7 +116,7 @@ function Table() {
             });
             
             if (data.team_points !== -2) {
-                if (data.team_points == -1) {
+                if (data.team_points === -1) {
                     if (prevP !== 0) {
                         setTeamPointsM((prevPoints) => {
                             if (!prevPoints) {
@@ -167,7 +168,6 @@ function Table() {
             }
     
             const spanElims = document.querySelectorAll('.team-elims');
-            const prevElim = spanElims[data.team_id-1].innerHTML || '0';
             let prevE: number = 0;
 
             spanElims.forEach((span) => {
@@ -191,10 +191,11 @@ function Table() {
                         ...updatedElims[teamIndex],
                         team_elims: prevE - 1,
                     };
-                } else if (data.team_points !== 0 && data.team_points === 1) {
+                } else if (data.team_points !== 0 && data.team_points >= 1) {
                     updatedElims[teamIndex] = {
                         ...updatedElims[teamIndex],
-                        team_elims: prevE + 1,
+                        team_elims: prevE + data.team_points,
+                        // team_elims: prevE + 1
                     };
                 } else if (data.team_points === -2) {
                     updatedElims[teamIndex] = {

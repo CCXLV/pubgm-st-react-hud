@@ -34,12 +34,13 @@ app.use('/team_logos', express.static(path.join(__dirname, 'team_data/team_logos
 
 app.get('/api/team_data', (req, res) => {
     const imagePromises = teamData.team_data.map(async (team, index) => {
-        const imageData: Buffer = await readFileAsync(team.logo);
+        const imageData = await readFileAsync(team.logo);
+
         return {
             id: index + 1,
             name: team.name,
             initial: team.initial,
-            logo_data: Buffer.from(imageData).toString('base64'),
+            logo_data: imageData.toString('base64'),
             team_color: teamData.table_data.background_color,
             header_color: teamData.table_data.header_color
         };
@@ -153,11 +154,11 @@ app.post('/api/team_eliminated', (req, res) => {
 
     const imagePromises = teamData.team_data.map(async (team, index) => {
         if (team.name === data.data.team_name) {
-            const imageData: Buffer = await readFileAsync(team.logo);
+            const imageData = await readFileAsync(team.logo);
 
             return {
                 team_name: team.name,
-                team_logo_data: Buffer.from(imageData).toString('base64')
+                team_logo_data: imageData.toString('base64')
             }
         }
     });

@@ -37,9 +37,6 @@ function Control() {
         
     }, []);
 
-    
-
-
     return (
         <div>
             <div className='nav-bar'>
@@ -120,7 +117,7 @@ function Control() {
                     ))}
                 </div>
                 <div className='table-container'>
-                    <iframe src='/table' frameBorder='0' className='iframe'></iframe>
+                    <iframe title='table' src='/table' frameBorder='0' className='iframe'></iframe>
                 </div>
             </div>
         </div>

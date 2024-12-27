@@ -51,6 +51,7 @@ button {
 .table-container {
     display: flex;
     width: 370px;
+    height: auto !important;
     overflow: hidden;
 }
 .iframe {
