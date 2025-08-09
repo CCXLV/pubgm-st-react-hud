@@ -2,6 +2,8 @@
 
 ![Preview](./preview.png)
 
+## Professional use
+For more professional usecase you can check out [PUBGM HUD](https://github.com/TheSkieNex/pubgm-hud)
 
 ## How to import team data
 In the `team_data` folder there is `config.json` where you can set teams background color and scoring table's header color in the `"table_data"`. You can upload team logos in `team_logos` folder and set team data in the `config.json` file in `"team_data"` (use the already put data as an example)
@@ -35,5 +37,3 @@ npm run server
 **NOTE** Whenever you change team data (team names, team logos) you will need to restart the backend server.
 
 Developed by [CCXLV](https://github.com/CCXLV/)
-
-For more professional version you can check out [PUBGM HUD](https://github.com/TheSkieNex/pubgm-hud)
