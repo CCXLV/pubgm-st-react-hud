@@ -35,3 +35,5 @@ npm run server
 **NOTE** Whenever you change team data (team names, team logos) you will need to restart the backend server.
 
 Developed by [CCXLV](https://github.com/CCXLV/)
+
+For more professional version you can check out [PUBGM HUD](https://github.com/TheSkieNex/pubgm-hud)
